@@ -8,6 +8,9 @@ Functions to convert numeric and string data formats to arrays of bytes.
 ## decode.py
 Functions to convert arrays of bytes to numeric and string data formats.
 
+## filetree.py
+The filetree class provides an iterator to loop through all files in a directory tree.
+
 ## strutils.py
 Various string utility functions, mostly for date and time formatting and UTF-8 encoding.
 
