@@ -11,17 +11,20 @@ Functions to convert arrays of bytes to numeric and string data formats.
 ## filetree.py
 The filetree class provides an iterator to loop through all files in a directory tree.
 
+## qrzlookup.py
+Class to perform QRZ.COM XML database callsign lookups. Use of this class requires a QRZ.com XML logbook data subscription.
+
 ## strutils.py
 Various string utility functions, mostly for date and time formatting and UTF-8 encoding.
 
-### Dependencies
+## Dependencies
 Written for Python 3.x.
 No other known dependencies.
  
-### Author
+## Author
 Tom Kerr AB3GY
 ab3gy@arrl.net
 
-### License
+## License
 Released under the 3-clause BSD license.
 See license.txt for details.
