@@ -25,6 +25,9 @@ Class to perform QRZ.COM XML database callsign lookups. Use of this class requir
 ### strutils.py
 Various string utility functions, mostly for date and time formatting and UTF-8 encoding.
 
+### xmlnode.py
+Class used to parse simple XML nodes for amateur radio purposes.
+
 ## Dependencies
 Written for Python 3.x.
 No other known dependencies.
