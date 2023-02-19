@@ -7,6 +7,9 @@ Developed for personal use by the author, but available to anyone under the lice
 
 ## Scripts
 
+### ConfigFile.py
+Implements a .INI configuration file for saving/restoring configuration parameters. File format is similar to Microsoft Windows .INI files.
+
 ### encode.py
 Functions to convert numeric and string data formats to arrays of bytes.
 
