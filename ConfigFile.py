@@ -191,6 +191,27 @@ class ConfigFile(object):
             pass
     
     # ------------------------------------------------------------------------
+    def get_section(self, section):
+        """
+        Get all items in the specified section.
+        
+        Parameters
+        ----------
+        section : str
+            The config file section name.
+
+        Returns
+        -------
+        All items in the section as a dictionary.
+        """
+        res = {}
+        try:
+            res = dict(self.config.items(str(section)))
+        except Exception as err:
+            print(str(err))
+        return res
+
+    # ------------------------------------------------------------------------
     def read(self, create=True):
         """
         Read the .INI file and get the config parameters.
