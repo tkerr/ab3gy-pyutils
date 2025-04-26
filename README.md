@@ -25,6 +25,9 @@ Functions for performing Great Circle calculations.
 ### qrzlookup.py  
 Class to perform QRZ.COM XML database callsign lookups. Use of this class requires a QRZ.com XML logbook data subscription.  
 
+### qrzupload.py
+Class to perform QRZ.com ADIF QSO upload. Use of this class requires a a QRZ.com logbook data subscription.
+
 ### strutils.py  
 Various string utility functions, mostly for date and time formatting and UTF-8 encoding.  
 
