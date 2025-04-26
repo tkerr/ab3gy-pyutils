@@ -2,8 +2,8 @@
 # qrzlookup.py
 # Author: Tom Kerr AB3GY
 #
-# Class to perform QRZ.COM XML database callsign lookups.
-# Use of this class requires a QRZ.com XML logbook data subscription.
+# Class to perform QRZ.com XML database callsign lookups.
+# Use of this class requires at least a QRZ.com XML logbook data subscription.
 #
 # QRZ.COM website: https://www.qrz.com/
 # QRZ XML Interface Specification: https://www.qrz.com/XML/current_spec.html
